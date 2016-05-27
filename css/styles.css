@@ -28,6 +28,13 @@
   padding-bottom: 1em;
 }
 
+.col-sm-6 a:hover {
+  text-decoration: none;
+}
+
+.col-sm-6 a p {
+  color: black;
+}
 
 .glyphicon.glyphicon-user {
   font-size: 7em;
