@@ -1,4 +1,29 @@
+.carousel {
+  margin-top: 3em;
+}
+
+.carousel-indicators li {
+  border-color: #ccc;
+  background-color: #ccc;
+}
+
 .jumbotron {
   text-align: center;
-  margin-top: 5em;
+  margin-top: 1em;
+}
+
+.carousel-inner {
+  height: 19.5em;
+}
+
+.carousel-inner .item img {
+  display: block;
+  margin: auto;
+  pad
+}
+
+#carimg {
+  max-height: 19.5em;
+  padding-top: 1em;
+  padding-bottom: 1em;
 }

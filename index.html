@@ -19,7 +19,7 @@
           <a class="navbar-brand" href="#">Portfolio</a>
         </div>
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav nav-pills navbar-right">
+          <ul class="nav navbar-nav navbar-right">
             <li class="active">
               <a href="#home">Home</a>
             </li>
@@ -30,7 +30,7 @@
               <a href="#contact">Contact</a>
             </li>
             <li role="separator" class="divider"></li>
-            <li class="dropdown open">
+            <li class="dropdown">
               <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
                 Other projects
                 <span class="caret"></span>
@@ -52,6 +52,31 @@
       </div>
     </nav>
 
+    <div id="mycarousel" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators" role="listbox">
+        <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+        <li data-target="#mycarousel" data-slide-to="1"></li>
+        <li data-target="#mycarousel" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="item active">
+          <img id="carimg" class="image-relative" src="img/flag.svg" alt="South Korean flag" />
+        </div>
+        <div class="item">
+          <img class="image-relative" src="img/american.jpg" alt="american flag" />
+        </div>
+        <div class="item">
+          <img id="carimg" class="image-relative" src="img/pcmr.jpg" alt="PC master race" />
+        </div>
+      </div>
+      <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#mycarousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+
     <div class="container">
       <div id="home" class="jumbotron">
         <h1>Tony Fabery's Portfolio</h1>
@@ -60,21 +85,6 @@
           You can find all the things that I can do here, have fun browsing around!
         </p>
       </div>
-    </div>
-
-    <div id="mycarousel" class="carousel slide" data-ride="crousel">
-      <ol class="crousel-indicators">
-
-      </ol>
-      <div class="carousel-inner">
-
-      </div>
-      <a class="left carousel-control" href="#mycarousel" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left"></span>
-      </a>
-      <a class="right crousel-control" href="#mycrousel" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-right"></span>
-      </a>
     </div>
 
     <div class="container">
@@ -88,7 +98,7 @@
         <div class="col-sm-6">
           <h4>Git</h4>
           <p>
-            Git was used to initialize a repository and push it up to my <a href="https://github.com/tfabery">github page</a>.
+            Git was used to initialize a repository and keep track what was done and push it up to my <a href="https://github.com/tfabery">github page</a>.
           </p>
         </div>
       </div>
