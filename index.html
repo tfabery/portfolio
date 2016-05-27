@@ -18,11 +18,10 @@
           </button>
           <a class="navbar-brand" href="#">Portfolio</a>
         </div>
-
         <div id="navbar" class="navbar-collapse collapse">
-          <ul class="nav navbar-nav navbar-right">
+          <ul class="nav nav-pills navbar-right">
             <li class="active">
-              <a href="#">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
               <a href="#about">About</a>
@@ -30,17 +29,68 @@
             <li>
               <a href="#contact">Contact</a>
             </li>
+            <li role="separator" class="divider"></li>
+            <li class="dropdown open">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">
+                Other projects
+                <span class="caret"></span>
+              </a>
+              <ul class="dropdown-menu">
+                <li>
+                  <a href="#">My first webpage</a>
+                </li>
+                <li>
+                  <a href="#">Kitten Kastel</a>
+                </li>
+                <li>
+                  <a href="#">Vacation</a>
+                </li>
+              </ul>
+            </li>
           </ul>
         </div>
       </div>
     </nav>
+
     <div class="container">
-      <div class="jumbotron">
+      <div id="home" class="jumbotron">
         <h1>Tony Fabery's Portfolio</h1>
         <h3>Thanks for visiting to see what I can do.</h2>
         <p>
           You can find all the things that I can do here, have fun browsing around!
         </p>
+      </div>
+    </div>
+
+    <div id="mycarousel" class="carousel slide" data-ride="crousel">
+      <ol class="crousel-indicators">
+
+      </ol>
+      <div class="carousel-inner">
+
+      </div>
+      <a class="left carousel-control" href="#mycarousel" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right crousel-control" href="#mycrousel" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-6">
+          <h4>HTML, CSS &amp; Bootstrap</h4>
+          <p>
+            I've used HTML, CSS &amp; Bootstrap to create this page and style it!!!!
+          </p>
+        </div>
+        <div class="col-sm-6">
+          <h4>Git</h4>
+          <p>
+            Git was used to initialize a repository and push it up to my <a href="https://github.com/tfabery">github page</a>.
+          </p>
+        </div>
       </div>
     </div>
 
